@@ -77,6 +77,7 @@ function onOverlayClick(event) {
 */
 
 function onPressKey(event) {
+  event.preventDefault();
   if (event.code === "Escape") {
     onCloseModal();
   }
